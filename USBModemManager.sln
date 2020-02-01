@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "USBModemManager", "USBModemManager\USBModemManager.csproj", "{22BA28EE-7D15-4F43-992C-FF5E1D48422D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "USBModemManager.UnitTests", "USBModemManager.UnitTests\USBModemManager.UnitTests.csproj", "{46ECE52B-EF08-4974-AE33-3666688B5F74}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "USBModemManagerExample", "USBModemManagerExample\USBModemManagerExample.csproj", "{2FB9464C-CF48-477A-99E1-8AD7FD249FE9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{22BA28EE-7D15-4F43-992C-FF5E1D48422D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{22BA28EE-7D15-4F43-992C-FF5E1D48422D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{22BA28EE-7D15-4F43-992C-FF5E1D48422D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46ECE52B-EF08-4974-AE33-3666688B5F74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46ECE52B-EF08-4974-AE33-3666688B5F74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46ECE52B-EF08-4974-AE33-3666688B5F74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46ECE52B-EF08-4974-AE33-3666688B5F74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FB9464C-CF48-477A-99E1-8AD7FD249FE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FB9464C-CF48-477A-99E1-8AD7FD249FE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FB9464C-CF48-477A-99E1-8AD7FD249FE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FB9464C-CF48-477A-99E1-8AD7FD249FE9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
